@@ -16,7 +16,7 @@ var ourArray = [50, 60, 70];
 
 var myArray = ourArray.length;
 
-console.log(myArray);*/
+console.log(myArray);
 
 function orderMyLogic (val) {
 	if (val < 5) {
@@ -28,4 +28,30 @@ function orderMyLogic (val) {
 	}
 }
 
-console.log(orderMyLogic(12));
+console.log(orderMyLogic(12));  */
+
+// Objects
+
+var testObj = {
+	12: "Namath",
+	16: "Montana",
+	21: "Unitas"
+};
+
+var myStorage = {
+	"car": {
+		"inside": {
+			"glovebox": "maps",
+			"passenger seat": "crumbs"
+		},
+		"outside" : {
+			"trunk": "jack"
+		}
+	}
+};
+
+var gloveboxContents = myStorage.car.inside["passenger seat"];
+
+console.log(gloveboxContents);
+
+
